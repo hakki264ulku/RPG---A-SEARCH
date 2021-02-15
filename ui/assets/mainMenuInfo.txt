@@ -1,0 +1,6 @@
+
+The game is built to simulate A* search algorithm 
+for monsters to be able to find and follow the player
+
+Game has universal turn based role play mechanics 
+so that player moves one time and monsters move one time 

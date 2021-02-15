@@ -1,0 +1,6 @@
+play 310,349,25,32 to 335,353
+info 336,349,25,32
+extension 313,381,70,25   
+exit 362,349,25,32 
+checkboxempty 311,143,20,20
+checkboxfull 332,143,20,20

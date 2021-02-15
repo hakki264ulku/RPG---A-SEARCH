@@ -1,0 +1,10 @@
+How to add new block?
+select a rune for that block(for example 'A')
+select a block from tiles.png get a x,y within selected texture
+add new block into atlas-index.txt in form of (rune floor(x/32),floor(y/32),varietyCount) an example would be = A 12,9,1
+in game.go add new Tile with new name and same rune, add new case to toString method
+in gridworld.go add new case to getTile method
+in editScreen.go add new case to getTileType method, if you wanna add this block can be picked in edit mode add it to editingTileSlice
+if this block is an entity add a new entity structure with inherited entity class implement entityHierarchy on it in uiEntityHierarchy.go, add case to getEntity method in ui.go
+
+How to add new menu?
